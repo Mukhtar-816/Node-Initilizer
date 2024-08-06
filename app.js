@@ -1,6 +1,7 @@
 import * as dotenv from 'dotenv';
 import express, { urlencoded } from 'express';
 import mongoose from 'mongoose';
+dotenv.config({ path: '.env.template' });
 
 //Importing Routes
 import authRouter from './routes/auth.routes.js';
